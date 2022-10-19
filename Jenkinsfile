@@ -8,7 +8,7 @@ pipeline {
                  }
                  stage('GitHub Jenkins Ant Docker Build') {
                  steps {
-                     git 'https://github.com/learn-devops-fast/rps-ant.git'
+                     git 'https://github.com/nijaouiOumaima/CI-CD-pipeline-sample-app.git'
                      sh 'ant clean compile test package war'
                  }
                  }
